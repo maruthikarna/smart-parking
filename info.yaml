@@ -6,7 +6,8 @@ project:
   description: "FSM based smart parking controller"
   language: "Verilog"
   clock_hz: 1000000
-  tiles: "1x1"   
+  tiles: "1x1"
+  top_module: "tt_um_smart_parking"   
 
 pinout:
   ui[0]: "car_entry"
