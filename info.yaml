@@ -6,3 +6,31 @@ project:
   description: "FSM based smart parking controller"
   language: "Verilog"
   clock_hz: 1000000
+
+pinout:
+  ui[0]: "car_entry"
+  ui[1]: "car_exit"
+  ui[2]: "card_valid"
+  ui[3]: "reset"
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
+
+  uo[0]: "entry_gate"
+  uo[1]: "exit_gate"
+  uo[2]: "lot_full"
+  uo[3]: "lot_empty"
+  uo[4]: "green_led"
+  uo[5]: "red_led"
+  uo[6]: "buzzer"
+  uo[7]: "display_en"
+
+  uio[0]: "slot_count[0]"
+  uio[1]: "slot_count[1]"
+  uio[2]: "slot_count[2]"
+  uio[3]: "slot_count[3]"
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
