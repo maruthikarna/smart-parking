@@ -1,0 +1,21 @@
+project:
+  title: "Smart Parking System"
+  author: "Maruthi"
+  description: "FSM based smart parking controller"
+  language: "Verilog"
+  clock_hz: 1000000
+
+pinout:
+  ui[0]: "car_entry"
+  ui[1]: "car_exit"
+  ui[2]: "card_valid"
+  ui[3]: "reset"
+
+  uo[0]: "entry_gate"
+  uo[1]: "exit_gate"
+  uo[2]: "lot_full"
+  uo[3]: "lot_empty"
+  uo[4]: "green_led"
+  uo[5]: "red_led"
+  uo[6]: "buzzer"
+  uo[7]: "display_en"
