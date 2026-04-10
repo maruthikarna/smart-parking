@@ -1,0 +1,8 @@
+yaml_version: 6
+
+project:
+  title: "Smart Parking System"
+  author: "Maruthi"
+  description: "FSM based smart parking controller"
+  language: "Verilog"
+  clock_hz: 1000000
