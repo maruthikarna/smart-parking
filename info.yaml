@@ -6,6 +6,7 @@ project:
   description: "FSM based smart parking controller"
   language: "Verilog"
   clock_hz: 1000000
+  tiles: "1x1"   
 
 pinout:
   ui[0]: "car_entry"
@@ -26,10 +27,10 @@ pinout:
   uo[6]: "buzzer"
   uo[7]: "display_en"
 
-  uio[0]: "slot_count[0]"
-  uio[1]: "slot_count[1]"
-  uio[2]: "slot_count[2]"
-  uio[3]: "slot_count[3]"
+  uio[0]: "slot_count_0"
+  uio[1]: "slot_count_1"
+  uio[2]: "slot_count_2"
+  uio[3]: "slot_count_3"
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
